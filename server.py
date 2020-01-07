@@ -5,6 +5,7 @@ import json
 from flask_cors import CORS
 from sqlalchemy import and_, or_
 
+
 db = connector.Manager()
 engine = db.createEngine()
 cache = [[], [], [], [], [], []]
